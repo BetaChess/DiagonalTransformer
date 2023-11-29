@@ -9,7 +9,7 @@ set(SOURCES
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_include_directories(${PROJECT_NAME}
-        PUBLIC vendor/glm/
+        PUBLIC vendor/eigen/
 )
 
 set_target_properties(${PROJECT_NAME}
